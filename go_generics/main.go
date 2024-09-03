@@ -21,7 +21,7 @@ func Max[T Ordered](a, b T) T {
 	return b
 }
 
-// Bài tập 2: Viết hàm Filter sử dụng Generics để lọc các phần tử trong slice
+// Bài tập 2: Viết hàm Filter sử dụng Generics để lọc các phần tử trong slice 
 
 // Hàm Filter nhận một slice và một hàm kiểm tra điều kiện, trả về một slice mới chỉ chứa các phần tử thỏa mãn điều kiện
 func Filter[T any](s []T, f func(T) bool) []T {
