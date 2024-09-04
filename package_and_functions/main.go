@@ -9,7 +9,7 @@ func main() {
 	var a int = 10
 	var b int = 5
 
-	// Add
+	// Add 
 	println("Addition: ", mathlib.Add(a, b))
 	//Subtract
 	println("Subtraction: ", mathlib.Subtract(a, b))
