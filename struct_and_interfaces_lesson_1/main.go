@@ -6,7 +6,7 @@ import (
 )
 
 type Person struct {
-	Name   string
+	Name   string 
 	Age    int
 	Gender string
 }
